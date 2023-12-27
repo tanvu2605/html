@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+        background: gray
+        ;
+     }
+     .form-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px; /* bo tròn mép container */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* đổ bóng */
+            margin-top: 20px; /* Khoảng cách từ phía trên */
+            max-width: 400px; /* Chiều rộng tối đa của container */
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    
+    <form>
+   
+    <center><h1>Tuyển dụng</h1></center>
+    <div class="form-container">
+    <div>
+        <label for ="userName">Họ và tên </label> <br>
+        <input  name ="userName" id="userName" type="text" />
+    </div>
+    <br>
+    <div>
+        <label for ="email">Email </label> <br>
+        <input  name ="email" id="email" type="text" />
+    </div>
+    <br>
+    <div>
+        <label for ="phone">Số điện thoại </label> <br>
+        <input  name ="phone" id="phone" type="text" />
+    </div>
+    <br>
+    <div>
+        <label for ="file">CV </label> <br>
+        <input name ="file" id="file" type="file" />
+    </div>
+    <br>
+    <div>
+        <label for ="text">Tin nhắn </label> <br>
+        <textarea name="text" id="text" cols="30" rows="3"></textarea> 
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Gửi">
+      
+    </div>
+</form>
+</div>
+</body>
+</html>
